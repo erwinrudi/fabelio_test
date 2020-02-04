@@ -13,7 +13,7 @@ export default class AppCtrl extends React.Component {
         let isLoading = _this.element.state.isLoading
         isLoading = true
         _this.element.setState({ isLoading })
-        axios.get('http://www.mocky.io/v2/5c9105cb330000112b649af8,')
+        axios.get('https://www.mocky.io/v2/5c9105cb330000112b649af8,')
             .then(function (response) {
                 let general = Object.assign({}, _this.element.state)
                 var furnitureStyle = general.furnitureStyle
